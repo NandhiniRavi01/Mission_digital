@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.bg-warning {
+  background-color: #FFB642F0 !important;
+}
+
+.bg-dark {
+  background-color: #040053 !important;
+}
+
+.rounded {
+  border-radius: 20px !important;
+}
+

@@ -1,0 +1,138 @@
+.content{
+    background-color: blanchedalmond;
+}
+.vision{
+   
+    background-color: white;
+}
+.vision-h1 {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.row-aligin{
+    display: flex;
+}
+.vission-second{
+    width: 50%;
+}
+.vission-first{
+    width: 50%;
+}
+.vission-para{
+    text-align: left;
+
+}
+.vission-learmore,.vission-readmore{
+    background-color: orange;
+    border-radius: 40px;
+    color: black;
+    font-weight: bold;
+}
+.row-aligin-vission{
+    display: flex;
+    align-items: flex-end;
+}
+.vission1-pic{
+    margin-left: 30px;
+    width: 210px;
+    height: 450px;
+    border-radius: 50px;
+}
+.vission2-pic{
+    margin-left: 30px;
+    width: 210px;
+    height: 350px;
+    border-radius: 50px;
+}
+.vission3-pic{
+    margin-left: 30px;
+    width: 210px;
+    height: 250px;
+    border-radius: 50px;
+}
+.vission-content{
+    background-color: white;
+    border: 2px solid white;
+    width: 30%;
+    position: relative;
+  height: 300px; 
+  width: 300px; 
+  overflow: visible;
+}
+.vission{
+    margin-top: 100px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 0;
+   
+    z-index: 1;
+}
+.vission-divide{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 5%;
+    background-color: white;
+}
+.content-fully{
+    width: 70%;
+    margin-top: 100px;
+    margin-left: 3%;
+}
+
+@media (max-width:768px){
+    .down-images{
+        margin-top: 105% !important;
+        width: 20%;
+        height: 20%;
+        position: absolute;
+        bottom: -8%;
+        left: 48%;
+        transform: translateX(-50%);
+        z-index: 2;
+      }
+      .overflow-text{
+        margin-top: 95%;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+        width: 20%;
+        height: 20%;
+        position: relative;
+        bottom: 50px;
+        left: 42%;
+        transform: translateX(-60%);
+        z-index: 2;
+    }
+}
+@media (min-width:769px){
+.down-images{
+    margin-top: 15% !important;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    bottom: 50px;
+    left: 42%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+.overflow-text{
+    margin-top: 65%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 20%;
+    height: 20%;
+    position: relative;
+    bottom: 50px;
+    left: 42%;
+    transform: translateX(-60%);
+    z-index: 3;
+}
+}
